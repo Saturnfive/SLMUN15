@@ -30,14 +30,16 @@
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    padding-top: 100px;
+    margin-top:100px;
     text-shadow: 2px 2px 5px #000;
+    margin-bottom: 35px;
 }
 .intro-Stext {
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
-    padding-bottom: 250px
+    margin-bottom: 180px;
+
 }
 .navbar-custom {
     margin-bottom: 0;
@@ -48,7 +50,27 @@
     padding: 4px 6px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    background-color: rgba(14, 67, 108, 0.75)
+
+}
+
+
+
+.navbar-color-active {
+     background-color: rgba(14,67,108,0.75);
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.navbar-color-disabled {
+     background-color: rgba(14, 67, 108, 0.0);
+     -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
 }
 .navbar-Mtext {
     padding: 4px 4px 4px 4px;
@@ -75,6 +97,8 @@
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
+
+
 .grid {
     background-image: url(../Resources/pattern.png);
     background-position: 0 0;
@@ -146,3 +170,28 @@ hr.blue-line {
     padding-left: 45.7%;
     margin-top: -7px;
 }
+
+.white-icon {
+    color: #fff;
+
+}
+
+.large-icon {
+    font-size: 35px;
+    position:relative;
+
+}
+
+.test {
+    border-color: red;
+    border-style: solid;
+
+}
+
+.pull-down {
+    padding-top: 45px;
+    margin-bottom: -250px;
+
+}
+
+

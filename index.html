@@ -13,6 +13,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,29 +27,33 @@
 
     <div>
 
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-custom navbar-fixed-top" id="navibar" role="navigation">
+
             <div class="container-fluid">
 
-                <div class="ontop">
-                    <img src="Resources/slmunlogo_blue.png">
+                <div class="ontop" >
+                    <img id="logo" src="Resources/slmunlogo_blue.png">
                 </div>
 
 
                 <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars white-icon"></i>
+                    </button>
                     <a href="#" class="navbar-Mtext">SLMUN 15</a>
                 </div>
 
+                <div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Mission</a>
+                        </li>
+                        <li><a href="#">Vision</a>
+                        </li>
+                        <li><a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
 
-
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Mission</a>
-                    </li>
-                    <li><a href="#">Vision</a>
-                    </li>
-                    <li><a href="#">Contact Us</a>
-                    </li>
-                </ul>
 
             </div>
         </nav>
@@ -67,6 +72,17 @@
                             <div class="col-md-8 col-md-offset-2">
                                 <h1 class="intro-Mtext">Sri Lanka Model United Nations</h1>
                                 <p class="intro-Stext">Welcome to SLMUN , the 20th Session</p>
+
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+                                <div class=" large-icon pull-down">
+                                    <a href="#section1">
+                                        <i class=" fa fa-angle-down white-icon "></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -75,7 +91,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="section1">
         <div class="row">
             <div class="section1bckg">
                 <div class="section1">
@@ -132,6 +148,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+
+
+                $('#logo').hide();
+                // fade in .navbar
+                $(function () {
+                    $(window).scroll(function () {
+                        // set distance user needs to scroll before we fadeIn navbar
+                        if ($(this).scrollTop() > 100) {
+                            document.getElementById("navibar").className = document.getElementById("navibar").className.replace(/(?:^|\s)navbar-color-disabled(?!\S)/g, '')
+                            document.getElementById("navibar").className += " navbar-color-active";
+                            $("#logo").fadeIn();
+
+                        } else {
+                            document.getElementById("navibar").className = document.getElementById("navibar").className.replace(/(?:^|\s)navbar-color-active(?!\S)/g, '')
+                            document.getElementById("navibar").className += " navbar-color-disabled";
+                            $("#logo").fadeOut();
+                        }
+                    });
+
+
+                });
+
+            });
+        }(jQuery));
+    </script>
 </body>
 
 </html>
