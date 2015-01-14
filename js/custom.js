@@ -2,15 +2,13 @@
 /*global $, jQuery, console*/
 
 (function ($) {
-    "use strict";
 
     $(document).ready(function () {
 
-        var hasScroll = false;
-
         $('#logo').show();
         $('#scrollup').hide();
-        // fade in .navbar
+
+
         $(function () {
             $(window).scroll(function () {
                 // set distance user needs to scroll before we fadeIn navbar
@@ -46,8 +44,9 @@
 (function ($) {
 
     var eFired = false,
-        oTop = $('#counter').offset().top - window.innerHeight + 350,
-        scrollticker;
+        oTop = $(document).height(),
+    scrollticker;
+        oTop = (oTop * 0.4598877529)-10;
 
     $(window).scroll(function () {
 
@@ -86,7 +85,7 @@
             var pTop = $('body').scrollTop();
             console.log(pTop + ' - ' + oTop);
 
-            if (pTop > oTop) {
+            if (pTop > oTop )  {
                 if (eFired === false) {
                     y();
                     eFired = true;
@@ -95,7 +94,7 @@
 
         }, 50);
     })
-    }(jQuery));
+}(jQuery));
 
 
 
@@ -182,6 +181,25 @@ $(document).ready(function () {
 
     });
 }(jQuery));
+
+$(document).ready(function () {
+
+    $('#team-slider').owlCarousel({
+        autoPlay: 1500, //Set AutoPlay to 3 seconds
+
+        items: 6,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [979, 3],
+        itemsTablet: [768, 2],
+        stopOnHover: true,
+        pagination: true,
+        rewindNav: true,
+
+
+    });
+
+
+});
 
 
 //        var timeout = null;
