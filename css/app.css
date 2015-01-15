@@ -50,7 +50,6 @@
     padding: 4px 6x;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-
 }
 .navbar-color-active {
     background-color: rgba(25, 181, 254, 0.85);
@@ -69,8 +68,8 @@
     transition: background-color 500ms linear;
 }
 .navbar-Mtext {
-    padding: 3px 5px 9px 5px;
-    margin-top: 5px;
+    padding: 6px 5px 11px 5px;
+    margin-top: 0px;
     font-family: 'Oxygen', sans-serif;
     font-size: 25px;
     font-weight: 300;
@@ -87,6 +86,13 @@
     background-color: rgba(236, 240, 241, 0.4);
     text-decoration: none;
     cursor: pointer;
+
+
+     -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .navbar-custom a {
     /*    line-height: 4px;*/
@@ -105,8 +111,14 @@
     height: inherit;
 }
 .nav li {
-    padding-top: 7px;
+    padding-top: 1px;
 }
+
+/*
+.nav li {
+    padding-top: 4px;
+}
+*/
 .nav li a {
     color: #fff;
 }
@@ -125,7 +137,9 @@
 .section4 h1,
 .section4 p,
 .section5 h1,
-.section5 p {
+.section5 p,
+.section5 h4,
+.section5 h5 {
     font-family: 'Open Sans', sans-serif;
 }
 .section1 h1,
@@ -147,8 +161,6 @@
 .section5 h1 {
     color: #fff;
 }
-
-
 .section1 p,
 .section2 p,
 .section3 p,
@@ -165,11 +177,9 @@
 .section4 p {
     color: #3498db;
 }
-
 .section1 {
     background-color: #4B77BE;
 }
-
 .section2 {
     background-image: url(../Resources/greybackdrop.png);
     background-size: cover;
@@ -178,11 +188,9 @@
     background-image: url(../Resources/greybackdrop.png);
     background-size: cover;
 }
-
 .section5 {
-    background-color: #1BBC9B ;
+    background-color: #1BBC9B;
 }
-
 .section3 {
     background-image: url(../Resources/confroom.png);
     background-size: cover;
@@ -212,7 +220,6 @@ hr.blue-line {
     border-color: red;
     border-style: solid;
 }
-
 .stat {
     margin: 50px auto;
     text-align: center;
@@ -259,22 +266,37 @@ hr.blue-line {
         background-color: rgba(14, 67, 108, 0.9);
     }
 }
-
-
-
 .carousel-position {
     padding: 2% 0 0 0;
 }
-
 .item-settings {
-/*    margin: 220px;*/
-   	padding: 30px 0px;
-	margin: 10px;
-	color: #FFF;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	text-align: center;
+    /*    margin: 220px;*/
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
 }
-
-
+.item-settings h4 {
+    margin-top: 20px;
+}
+a h4,
+a h5 {
+    color: #fff;
+}
+.item-settings a:hover,
+.item-settings a:focus,
+.item-settings a:hover h4,
+.item-settings a:hover h5,
+.item-settings a:focus h4,
+.item-settings a:focus h5 {
+    text-decoration: none;
+    text-shadow: 0px 1px #000;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all 4s ease;
+}

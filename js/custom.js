@@ -4,9 +4,21 @@
 (function ($) {
 
     $(document).ready(function () {
-
+        var hasScroll = false;
         $('#logo').show();
         $('#scrollup').hide();
+
+        if ($(this).scrollTop() > 100) {
+            document.getElementById("navibar").className = document.getElementById("navibar").className.replace(/(?:^|\s)navbar-color-disabled(?!\S)/g, '');
+            document.getElementById("content-navbar").className = document.getElementById("content-navbar").className.replace(/(?:^|\s)pull-down-navbar(?!\S)/g, '');
+
+            document.getElementById("navibar").className += " navbar-color-active";
+            document.getElementById("content-navbar").className += " pull-up-navbar";
+            $("#logo").fadeOut();
+            $("#scrollup").fadeIn();
+            hasScroll = true;
+        }
+
 
 
         $(function () {
@@ -45,8 +57,8 @@
 
     var eFired = false,
         oTop = $(document).height(),
-    scrollticker;
-        oTop = (oTop * 0.4598877529)-10;
+        scrollticker;
+    oTop = (oTop * 0.4598877529) - 10;
 
     $(window).scroll(function () {
 
@@ -85,7 +97,7 @@
             var pTop = $('body').scrollTop();
             console.log(pTop + ' - ' + oTop);
 
-            if (pTop > oTop )  {
+            if (pTop > oTop) {
                 if (eFired === false) {
                     y();
                     eFired = true;
@@ -185,7 +197,7 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     $('#team-slider').owlCarousel({
-        autoPlay: 1500, //Set AutoPlay to 3 seconds
+       // autoPlay: 1500, //Set AutoPlay to 3 seconds
 
         items: 6,
         itemsDesktop: [1199, 3],
