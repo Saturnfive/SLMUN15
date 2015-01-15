@@ -198,18 +198,28 @@ $(document).ready(function () {
 
     $('#team-slider').owlCarousel({
 
-
-        items: 6,
-        itemsDesktop: [1199, 3],
-        itemsDesktopSmall: [979, 3],
-        itemsTablet: [768, 2],
         autoplay: true,
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
-        loop: true
+        loop: true,
+
+
+        responsive: {
+            0: {
+                items: 2
+            },
+            768: {
+                items: 3
+            },
+            992: {
+                items: 6
+            }
+        }
 
 
     });
+
+
 
 
 });
