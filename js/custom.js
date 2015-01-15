@@ -197,15 +197,16 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     $('#team-slider').owlCarousel({
-       // autoPlay: 1500, //Set AutoPlay to 3 seconds
+
 
         items: 6,
         itemsDesktop: [1199, 3],
         itemsDesktopSmall: [979, 3],
         itemsTablet: [768, 2],
-        stopOnHover: true,
-        pagination: true,
-        rewindNav: true,
+        autoplay: true,
+        autoplayTimeout: 1500,
+        autoplayHoverPause: true,
+        loop: true
 
 
     });
