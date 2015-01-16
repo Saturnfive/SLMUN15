@@ -137,19 +137,26 @@
 .section5 h1,
 .section5 p,
 .section5 h4,
-.section5 h5 {
+.section5 h5,
+.section6 h1,
+.section6 p {
     font-family: 'Open Sans', sans-serif;
 }
 .section1 h1,
 .section2 h1,
 .section3 h1,
 .section4 h1,
-.section5 h1 {
+.section5 h1,
+.section6 h1 {
     font-weight: 700;
     font-size: 33.7px;
     color: #fff;
     padding-top: 114px;
 }
+.section6 h1 {
+    padding-top: 25px;
+}
+
 .section2 h1 {
     color: #3498db;
 }
@@ -159,6 +166,10 @@
 .section5 h1 {
     color: #fff;
 }
+.section6 h1 {
+    color: #eee;
+}
+
 .section1 p,
 .section2 p,
 .section3 p,
@@ -171,6 +182,9 @@
 }
 .section2 p {
     color: #3498db;
+}
+.section6 p {
+    color: #eee;
 }
 .section4 p {
     color: #3498db;
@@ -194,6 +208,9 @@
 }
 .section5 {
     background-color: #2c8eda;
+}
+.section6 {
+    background-color: #232324;
 }
 .section3 {
     background-image: url(../Resources/confroom.png);
