@@ -320,7 +320,8 @@ $(document).ready(function () {
             zoom: 13,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false,
-            styles: stylesArray
+            styles: stylesArray,
+
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
         var marker = new google.maps.Marker({
@@ -331,6 +332,8 @@ $(document).ready(function () {
 
     }
     google.maps.event.addDomListener(window, 'load', initialize);
+
+
 
 });
 
