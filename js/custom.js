@@ -316,11 +316,13 @@ $(document).ready(function () {
 ];
         var bmichLatLng = new google.maps.LatLng(6.901046, 79.872734)
         var mapOptions = {
-            center:bmichLatLng,
+            center: bmichLatLng,
             zoom: 13,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false,
             styles: stylesArray,
+            draggable: false,
+//            panControl: false
 
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
@@ -329,9 +331,11 @@ $(document).ready(function () {
             map: map,
             title: 'BMICH'
         });
+        map.set('draggable',true);
 
     }
     google.maps.event.addDomListener(window, 'load', initialize);
+    
 
 
 

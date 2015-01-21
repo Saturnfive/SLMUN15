@@ -27,6 +27,7 @@
 }
 .intro-Mtext {
     font-size: 70px;
+/*    font-size: 4.4em;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-top: 100px;
@@ -172,7 +173,8 @@
 .section3 p,
 .section4 p {
     font-weight: 400;
-    font-size: 20.6px;
+    font-size: 1.288em;
+/*    font-size: 20.6px;*/
     color: #fff;
     line-height: 30px;
     padding-bottom: 80px;
@@ -322,8 +324,30 @@ a h5 {
     transition: all .5s ease;
 }
 .social-media-buttons {
-    color: #22A7F0;
+    color: #969696;
     font-size: 40px;
+    
+}
+
+.fa-google-plus-square:hover,
+.fa-google-plus-square:focus
+{
+    color: #dd4b39;
+}
+.fa-twitter-square:hover,
+.fa-twitter-square:focus
+{
+    color: #00ACED;
+}
+.fa-instagram:hover,
+.fa-instagram:focus
+{
+    color: #3F729B;
+}
+.fa-facebook-square:hover,
+.fa-facebook-square:focus
+{
+    color: #3B5998;
 }
 .left-media-button {
     padding-left: 32px;
@@ -344,10 +368,12 @@ a h5 {
 
     min-height: 132px;
     resize: vertical;
+    margin-left: 10px;
 
 }
 .contact-submit-block-add-margin {
     margin-left: 42px;
+/*    margin-left: -21px;*/
 }
 
 .submit-button-font {
@@ -358,4 +384,23 @@ a h5 {
     width: 100%;
     height: 500px;
 
+}
+
+.contact-details-block {
+    margin-left: -10px;
+}
+
+.contact-us-push-down {
+    margin-top: 11px;
+}
+
+.btn-blue:hover {
+    background-color: #4d90fe;
+    border-color: #4d90fe;
+        
+}
+.btn-blue {
+    background-color: #4183D7;
+    border-color: #4183D7;
+        
 }
