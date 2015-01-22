@@ -179,9 +179,13 @@
     color: #fff;
     line-height: 30px;
     padding-bottom: 80px;
+    text-align: justify;
 }
 .section2 p {
     color: #3498db;
+}
+.section3 p{
+    text-align: center;
 }
 .section6 p {
     color: #eee;
@@ -335,33 +339,6 @@ a h5 {
     
     
 }
-
-.fa-google-plus-square:hover,
-.fa-google-plus-square:focus
-{
-    color: #dd4b39;
-}
-.fa-twitter-square:hover,
-.fa-twitter-square:focus
-{
-    color: #00ACED;
-}
-.fa-instagram:hover,
-.fa-instagram:focus
-{
-    color: #3F729B;
-}
-.fa-facebook-square:hover,
-.fa-facebook-square:focus
-{
-    color: #3B5998;
-}
-.left-media-button {
-    padding-left: 32px;
-}
-.right-media-button {
-    margin-left: -10px;
-}
 .social-media-pushdown {
     margin-top: 7%;
 }
@@ -384,7 +361,7 @@ a h5 {
 }
 
 .submit-button-font {
-    font-size: 1.563em;
+    font-size: 2.125em;
 /*    font-size: 25px;*/
 }
 
