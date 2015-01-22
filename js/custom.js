@@ -1,9 +1,14 @@
 /*jslint browser: true*/
 /*global $, jQuery, console*/
 
+
+
 (function ($) {
 
     $(document).ready(function () {
+
+
+
         var hasScroll = false;
         $('#logo').show();
         $('#scrollup').hide();
@@ -201,7 +206,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
-        loop: true,
+        loop: false,
 
 
         responsive: {
@@ -219,6 +224,118 @@ $(document).ready(function () {
 
     });
 
+
+
+
+});
+
+$(document).ready(function () {
+    function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+
+
+        var stylesArray = [
+            {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#444444"
+            }
+        ]
+    },
+            {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#f2f2f2"
+            }
+        ]
+    },
+            {
+                "featureType": "poi",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+            }
+        ]
+    },
+            {
+                "featureType": "road",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+            },
+                    {
+                        "lightness": 45
+            }
+        ]
+    },
+            {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "simplified"
+            }
+        ]
+    },
+            {
+                "featureType": "road.arterial",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+            }
+        ]
+    },
+            {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+            }
+        ]
+    },
+            {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#25b0e9"
+            },
+                    {
+                        "visibility": "on"
+            }
+        ]
+    }
+];
+        var bmichLatLng = new google.maps.LatLng(6.901046, 79.872734)
+        var mapOptions = {
+            center: bmichLatLng,
+            zoom: 13,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false,
+            styles: stylesArray,
+            draggable: false,
+//            panControl: false
+
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({
+            position: bmichLatLng,
+            map: map,
+            title: 'BMICH'
+        });
+        map.set('draggable',true);
+
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    
 
 
 
