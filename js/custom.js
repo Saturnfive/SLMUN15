@@ -317,7 +317,7 @@ $(document).ready(function () {
         var bmichLatLng = new google.maps.LatLng(6.901046, 79.872734)
         var mapOptions = {
             center: bmichLatLng,
-            zoom: 13,
+            zoom: 14,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false,
             styles: stylesArray,
