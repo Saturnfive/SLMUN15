@@ -336,11 +336,14 @@ a h5 {
     color: #969696;
     font-size: 2.500em;
 /*    font-size: 40px;*/
-    
-    
+
+
 }
-.social-media-pushdown {
-    margin-top: 7%;
+.social-media-pushdown-1 {
+    margin-top: 20%;
+}
+.social-media-pushdown-2 {
+    margin-top: 4%;
 }
 .btn-fill-contact {
     height: 132px;
@@ -382,10 +385,47 @@ a h5 {
 .btn-blue:hover {
     background-color: #4d90fe;
     border-color: #4d90fe;
-        
+
 }
 .btn-blue {
     background-color: #4183D7;
     border-color: #4183D7;
-        
+
 }
+
+.social-button-push-right{
+    margin-left: 40%;
+}
+.social-button-push-left{
+    margin-left: -40%;
+}
+
+.fa-back-color {
+    color: #fff; /*Change default back color*/
+}
+
+.facebook-sc-fore{
+    color: red; /*Change Icon color when hover over*/
+}
+.facebook-sc-bkg{
+    color: green; /*Change white Space when hover over*/
+}
+.twitter-sc-fore{
+    color: blue;
+}
+.twitter-sc-bkg{
+    color: yellow;
+}
+.gplus-sc-fore{
+    color: blue;
+}
+.gplus-sc-bkg{
+    color: yellow;
+}
+.insta-sc-fore{
+    color: blue;
+}
+.insta-sc-bkg{
+    color: yellow;
+}
+

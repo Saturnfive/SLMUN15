@@ -110,7 +110,7 @@
             }
 
         }, 50);
-    })
+    });
 }(jQuery));
 
 
@@ -322,7 +322,7 @@ $(document).ready(function () {
             scrollwheel: false,
             styles: stylesArray,
             draggable: false,
-//            panControl: false
+            //            panControl: false
 
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
@@ -331,15 +331,31 @@ $(document).ready(function () {
             map: map,
             title: 'BMICH'
         });
-        map.set('draggable',true);
+        map.set('draggable', true);
 
     }
     google.maps.event.addDomListener(window, 'load', initialize);
-    
+
 
 
 
 });
+
+$(document).ready(function(){
+    $(".fade-button").hover(function(){
+        var x= $(this).attr('id') ;
+
+        $( this ).addClass( x +"-fore", 500, "linear" );
+        $( "#" + x + "-bkg" ).addClass( x +"-bkg", 400, "linear" ); /*400milliseconds animate*/
+    },function(){
+        var x= $(this).attr('id') ;
+        $( this ).removeClass( x +"-fore", 500, "linear" );
+        $( "#" + x + "-bkg").removeClass( x +"-bkg", 400, "linear" ); /*400milliseconds animate*/
+    });
+
+});
+
+
 
 
 //        var timeout = null;
