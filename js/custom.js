@@ -345,12 +345,12 @@ $(document).ready(function(){
     $(".fade-button").hover(function(){
         var x= $(this).attr('id') ;
 
-        $( this ).addClass( x +"-fore", 500, "linear" );
-        $( "#" + x + "-bkg" ).addClass( x +"-bkg", 400, "linear" ); /*400milliseconds animate*/
+        $( this ).addClass( x +"-fore", 300, "linear" );
+        $( "#" + x + "-bkg" ).addClass( x +"-bkg", 350, "linear" ); /*400milliseconds animate*/
     },function(){
         var x= $(this).attr('id') ;
-        $( this ).removeClass( x +"-fore", 500, "linear" );
-        $( "#" + x + "-bkg").removeClass( x +"-bkg", 400, "linear" ); /*400milliseconds animate*/
+        $( this ).removeClass( x +"-fore", 250, "linear" );
+        $( "#" + x + "-bkg").removeClass( x +"-bkg", 200, "linear" ); /*400milliseconds animate*/
     });
 
 });

@@ -401,31 +401,31 @@ a h5 {
 }
 
 .fa-back-color {
-    color: #fff; /*Change default back color*/
+    color: #848484; /*Change default back color*/
 }
 
 .facebook-sc-fore{
-    color: red; /*Change Icon color when hover over*/
+    color: #ffffff; /*Change Icon color when hover over*/
 }
 .facebook-sc-bkg{
-    color: green; /*Change white Space when hover over*/
+    color: #3b5998; /*Change white Space when hover over*/
 }
 .twitter-sc-fore{
-    color: blue;
+    color: #ffffff;
 }
 .twitter-sc-bkg{
-    color: yellow;
+    color: #00aced;
 }
 .gplus-sc-fore{
-    color: blue;
+    color: #ffffff;
 }
 .gplus-sc-bkg{
-    color: yellow;
+    color: #dd4b39;
 }
 .insta-sc-fore{
-    color: blue;
+    color: #ffffff;
 }
 .insta-sc-bkg{
-    color: yellow;
+    color: #765742;
 }
 
