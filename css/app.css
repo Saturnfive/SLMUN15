@@ -332,13 +332,7 @@ a h5 {
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
-.social-media-buttons {
-    color: #969696;
-    font-size: 2.500em;
-/*    font-size: 40px;*/
 
-
-}
 .social-media-pushdown-1 {
     margin-top: 20%;
 }
@@ -347,6 +341,7 @@ a h5 {
 }
 .btn-fill-contact {
     height: 132px;
+    border-radius: 1px;
 }
 .contact-message-block {
     box-sizing: border-box;
@@ -356,7 +351,7 @@ a h5 {
     min-height: 132px;
     resize: vertical;
     margin-left: 10px;
-
+    border-radius: 1px;
 }
 .contact-submit-block-add-margin {
     margin-left: 42px;
@@ -376,6 +371,7 @@ a h5 {
 
 .contact-details-block {
     margin-left: -10px;
+    border-radius: 1px;
 }
 
 .contact-us-push-down {
@@ -427,5 +423,9 @@ a h5 {
 }
 .insta-sc-bkg{
     color: #765742;
+
 }
 
+.fa-stack a{
+    color:  #232324;
+}

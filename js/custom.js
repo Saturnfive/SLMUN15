@@ -206,7 +206,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
-        loop: false,
+        loop: true,
 
 
         responsive: {
@@ -333,24 +333,38 @@ $(document).ready(function () {
         });
         map.set('draggable', true);
 
+        google.maps.event.addListener(map, 'click', function (event) {
+            this.setOptions({
+                scrollwheel: true
+            });
+        });
+
+         google.maps.event.addListener(map, 'mouseout', function (event) {
+            this.setOptions({
+                scrollwheel: false
+            });
+        });
+
     }
     google.maps.event.addDomListener(window, 'load', initialize);
 
-
-
-
 });
 
-$(document).ready(function(){
-    $(".fade-button").hover(function(){
-        var x= $(this).attr('id') ;
+$(document).ready(function () {
+    $(".fade-button").hover(function () {
+        var x = $(this).attr('id');
 
-        $( this ).addClass( x +"-fore", 300, "linear" );
-        $( "#" + x + "-bkg" ).addClass( x +"-bkg", 350, "linear" ); /*400milliseconds animate*/
-    },function(){
-        var x= $(this).attr('id') ;
-        $( this ).removeClass( x +"-fore", 250, "linear" );
-        $( "#" + x + "-bkg").removeClass( x +"-bkg", 200, "linear" ); /*400milliseconds animate*/
+        if (!$(this).hasClass('animated')) {
+            $(this).dequeue().addClass(x + "-fore", 300, "linear");
+            $("#" + x + "-bkg").dequeue().addClass(x + "-bkg", 350, "linear");
+        }
+
+    }, function () {
+        var x = $(this).attr('id');
+        if (!$(this).hasClass('animated')) {
+            $(this).removeClass(x + "-fore", 250, "linear");
+            $("#" + x + "-bkg").removeClass(x + "-bkg", 200, "linear"); /*400milliseconds animate*/
+        }
     });
 
 });
