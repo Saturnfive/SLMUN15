@@ -139,7 +139,8 @@
 .section5 h4,
 .section5 h5,
 .section6 h1,
-.section6 p {
+.section6 p,
+.section6 h5 {
     font-family: 'Open Sans', sans-serif;
 }
 .section1 h1,
@@ -193,6 +194,10 @@
 .section4 p {
     color: #3498db;
 }
+
+.section6 h5{
+    font-size: 0.75em;
+}
 .section1 {
     background-color: #0074ce;
 }
@@ -214,6 +219,7 @@
 }
 .section6 {
     background-color: #232324;
+    position: relative;
 }
 .section3 {
     background-image: url(../Resources/confroom.png);
@@ -333,6 +339,15 @@ a h5 {
     transition: all .5s ease;
 }
 
+.section6 a,
+.section6 a:hover{
+    text-decoration: none;
+    color: red;
+}
+.section6 a{
+    color: #fff;
+}
+
 .social-media-pushdown-1 {
     margin-top: 20%;
 }
@@ -428,4 +443,15 @@ a h5 {
 
 .fa-stack a{
     color:  #232324;
+}
+
+.fixed-bot {
+    position: absolute;
+    bottom: 0;
+    color: red;
+}
+
+.contact-buttons{
+    font-size: 1.5em;
+    color: #22A7F0;
 }
