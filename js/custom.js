@@ -321,7 +321,7 @@ $(document).ready(function () {
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false,
             styles: stylesArray,
-            draggable: false,
+            draggable: false
             //            panControl: false
 
         }
@@ -331,17 +331,19 @@ $(document).ready(function () {
             map: map,
             title: 'BMICH'
         });
-        map.set('draggable', true);
+
 
         google.maps.event.addListener(map, 'click', function (event) {
             this.setOptions({
-                scrollwheel: true
+                scrollwheel: true,
+                draggable: true
             });
         });
 
-         google.maps.event.addListener(map, 'mouseout', function (event) {
+        google.maps.event.addListener(map, 'mouseout', function (event) {
             this.setOptions({
-                scrollwheel: false
+                scrollwheel: false,
+                draggable: true
             });
         });
 
