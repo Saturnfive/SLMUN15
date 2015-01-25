@@ -372,7 +372,6 @@ a h5 {
 .contact-details-block {
     margin-left: -10px;
     border-radius: 1px;
-
 }
 
 .contact-us-push-down {
@@ -430,11 +429,3 @@ a h5 {
 .fa-stack a{
     color:  #232324;
 }
-
-.contact-details-block, 
-.contact-message-block {
-    background-color: #f1f1f1;
-    
-}
-
-
