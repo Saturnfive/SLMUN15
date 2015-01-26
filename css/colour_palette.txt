@@ -1,0 +1,5 @@
+menu - 043869
+section 1 - background(0a6bb6) text(ffffff)
+section 2 - background(eeeeee) text(0a6bb6)
+team - background(004a9d) text(ffffff)
+contact - background(232324) button(3498db) textbox(eaeaea)

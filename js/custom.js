@@ -1,9 +1,14 @@
 /*jslint browser: true*/
 /*global $, jQuery, console*/
 
+
+
 (function ($) {
 
     $(document).ready(function () {
+
+
+
         var hasScroll = false;
         $('#logo').show();
         $('#scrollup').hide();
@@ -53,60 +58,7 @@
     });
 }(jQuery));
 
-(function ($) {
 
-    var eFired = false,
-        oTop = $(document).height(),
-        scrollticker;
-    oTop = (oTop * 0.4598877529) - 10;
-
-    $(window).scroll(function () {
-
-        if (scrollticker) {
-            window.clearTimeout(scrollticker);
-            scrollticker = null;
-        }
-        // Set Timeout
-
-        function count($this) {
-            var current = parseInt($this.html(), 10);
-            current = current + 22; /* Where 50 is increment */
-            $this.html(current);
-            if (current > $this.data('count')) {
-                $this.html($this.data('count'));
-            } else {
-                setTimeout(function () {
-                    count($this);
-                }, 50);
-            }
-        }
-
-        function y() {
-            $(".stat-count").each(function () {
-                $(this).data('count', parseInt($(this).html(), 10));
-                var x = parseInt($(this).html(), 10) - 400;
-                $(this).html(x);
-                count($(this));
-            });
-        }
-
-
-
-        scrollticker = window.setTimeout(function () {
-
-            var pTop = $('body').scrollTop();
-            console.log(pTop + ' - ' + oTop);
-
-            if (pTop > oTop) {
-                if (eFired === false) {
-                    y();
-                    eFired = true;
-                }
-            }
-
-        }, 50);
-    })
-}(jQuery));
 
 
 
@@ -171,13 +123,6 @@ $(document).ready(function () {
     }
 
 });
-//
-//$('#scrollup').click(function () {
-//    $(window.opera ? 'html' : 'html, body').animate({
-//        scrollTop: 0,
-//    }, 1500); // 1500 here is the duration of animation in the milliseconds (seconds * 1000)
-//});
-
 
 (function ($) {
     $(document).ready(function () {
@@ -224,10 +169,187 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function () {
+    var marker, map;
 
-//        var timeout = null;
-//            clearTimeout(timeout);
-//            timeout = setTimeout(function () {
-//
-//            }, 150);
-//
+    var mapCanvas = document.getElementById('map-canvas');
+
+    function initialize() {
+
+
+        var stylesArray = [
+            {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#444444"
+            }
+        ]
+    },
+            {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#f2f2f2"
+            }
+        ]
+    },
+            {
+                "featureType": "poi",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+            }
+        ]
+    },
+            {
+                "featureType": "road",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+            },
+                    {
+                        "lightness": 45
+            }
+        ]
+    },
+            {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "simplified"
+            }
+        ]
+    },
+            {
+                "featureType": "road.arterial",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+            }
+        ]
+    },
+            {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+            }
+        ]
+    },
+            {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#25b0e9"
+            },
+                    {
+                        "visibility": "on"
+            }
+        ]
+    }
+];
+        var bmichLatLng = new google.maps.LatLng(6.901046, 79.872734);
+        var mapOptions = {
+            center: bmichLatLng,
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false,
+            styles: stylesArray,
+            draggable: false,
+            disableDefaultUI: true
+                //            panControl: false
+
+        };
+        map = new google.maps.Map(mapCanvas, mapOptions);
+
+        var contentString = '<div class="map-info text-center" ><b>BMICH</b><br/> Bauddhaloka Mawatha, Colombo</div>';
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        marker = new google.maps.Marker({
+            amimation: google.maps.Animation.DROP,
+            map: map,
+            title: 'BMICH',
+            position: bmichLatLng
+        });
+
+
+        google.maps.event.addListener(map, 'click', function (event) {
+            this.setOptions({
+                scrollwheel: true,
+                draggable: true
+            });
+        });
+
+        google.maps.event.addListener(map, 'mouseout', function (event) {
+            this.setOptions({
+                scrollwheel: false,
+                draggable: true
+            });
+        });
+
+            infowindow.open(map, marker);
+
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+});
+
+$(document).ready(function () {
+    var x = true;
+    var waypoint = new Waypoint({
+        element: document.getElementById('counter'),
+        handler: function (direction) {
+            if (x === true) {
+
+                function getnumber() {
+                    $('.stat-count').each(function () {
+                        var num = parseInt($(this).html());
+                        var new_num = num * 0.75
+                        $(this).html(new_num);
+
+
+                    })
+                };
+
+
+
+                getnumber();
+
+                x = false;
+            }
+
+        },
+        offset: '60%',
+
+
+    })
+});
+
+$(document).ready(function () {
+    $('#text-contact-email').hover(function () {
+
+        $('#icon-contact-email').toggleClass('shrink');
+        //       $('#tele').removeClass('buzz');
+    });
+    $('#text-contact-map').hover(function () {
+
+        $('#icon-contact-map').toggleClass('shrink');
+        //       $('#tele').removeClass('buzz');
+    });
+    $('#text-contact-phone').hover(function () {
+
+        $('#icon-contact-phone').toggleClass('shrink');
+        //       $('#tele').removeClass('buzz');
+    });
+});
