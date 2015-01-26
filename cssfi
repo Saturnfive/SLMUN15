@@ -261,14 +261,14 @@
 }
 
 .section2 {
-    /*
+
     background-image: url(../Resources/greybackdrop.png);
     background-size: cover;
 
 
-*/
 
-    background-color: #eeeeee;
+
+/*    background-color: #eeeeee;*/
 }
 
 .section4 {
