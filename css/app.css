@@ -424,7 +424,6 @@ a h5 {
 .section6 h5 a:hover {
     text-decoration: none;
     color: #52B3D9;
-
     /*Change Contact font colours*/
 }
 
@@ -511,10 +510,10 @@ a h5 {
         margin-left: 35%;
     }
     .social-button-push-left {
-        margin-left: -40%;
+        margin-left: -35%;
     }
     .social-media-pushdown-2 {
-        margin-top: 6%;
+        margin-top: 4%;
     }
 }
 
@@ -526,11 +525,15 @@ a h5 {
         margin-top: 4%;
     }
     .social-button-push-right {
-        margin-left: 28px;
+        margin-left: 25px;
     }
     .social-button-push-left {
-        margin-left: -28px;
+        margin-left: -25px;
     }
+    .social-media-pushdown-2 {
+        margin-top: 5px;
+    }
+
 }
 
 .item-settings img {
@@ -555,10 +558,9 @@ a h5 {
 #insta-sc:hover {
     color: #fff;
     background-color: #765742;
-
 }
 
-.hover{
+.hover {
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
@@ -566,21 +568,34 @@ a h5 {
     transition: all .5s ease;
 }
 
-
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.025);
-  transform: scale(1.025);
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
 }
 
-.shrink{
+.shrink {
     -webkit-animation-name: hvr-icon-pulse-shrink;
-  animation-name: hvr-icon-pulse-shrink;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
+    animation-name: hvr-icon-pulse-shrink;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.map-info {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    min-width: 250px;
+    min-height: 70px;
+    font-size: 1.25em;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #C5C5C5;
+
 }

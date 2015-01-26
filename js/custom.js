@@ -170,8 +170,11 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    var marker, map;
+
+    var mapCanvas = document.getElementById('map-canvas');
+
     function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
 
 
         var stylesArray = [
@@ -266,11 +269,18 @@ $(document).ready(function () {
                 //            panControl: false
 
         };
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-        var marker = new google.maps.Marker({
-            position: bmichLatLng,
+        map = new google.maps.Map(mapCanvas, mapOptions);
+
+        var contentString = '<div class="map-info text-center" ><b>BMICH</b><br/> Bauddhaloka Mawatha, Colombo</div>';
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        marker = new google.maps.Marker({
+            amimation: google.maps.Animation.DROP,
             map: map,
-            title: 'BMICH'
+            title: 'BMICH',
+            position: bmichLatLng
         });
 
 
@@ -287,6 +297,8 @@ $(document).ready(function () {
                 draggable: true
             });
         });
+
+            infowindow.open(map, marker);
 
     }
     google.maps.event.addDomListener(window, 'load', initialize);
@@ -324,21 +336,20 @@ $(document).ready(function () {
     })
 });
 
-$(document).ready(function(){
-    $('#text-contact-email').hover(function(){
+$(document).ready(function () {
+    $('#text-contact-email').hover(function () {
 
-       $('#icon-contact-email').toggleClass('shrink');
-//       $('#tele').removeClass('buzz');
+        $('#icon-contact-email').toggleClass('shrink');
+        //       $('#tele').removeClass('buzz');
     });
-    $('#text-contact-map').hover(function(){
+    $('#text-contact-map').hover(function () {
 
-       $('#icon-contact-map').toggleClass('shrink');
-//       $('#tele').removeClass('buzz');
+        $('#icon-contact-map').toggleClass('shrink');
+        //       $('#tele').removeClass('buzz');
     });
-    $('#text-contact-phone').hover(function(){
+    $('#text-contact-phone').hover(function () {
 
-       $('#icon-contact-phone').toggleClass('shrink');
-//       $('#tele').removeClass('buzz');
+        $('#icon-contact-phone').toggleClass('shrink');
+        //       $('#tele').removeClass('buzz');
     });
 });
-
