@@ -143,7 +143,7 @@ $(document).ready(function () {
 
     $('#team-slider').owlCarousel({
 
-        autoplay: true,
+
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
         loop: true,
@@ -298,43 +298,43 @@ $(document).ready(function () {
             });
         });
 
-            infowindow.open(map, marker);
+        infowindow.open(map, marker);
 
     }
     google.maps.event.addDomListener(window, 'load', initialize);
 
 });
 
-$(document).ready(function () {
-    var x = true;
-    var waypoint = new Waypoint({
-        element: document.getElementById('counter'),
-        handler: function (direction) {
-            if (x === true) {
-
-                function getnumber() {
-                    $('.stat-count').each(function () {
-                        var num = parseInt($(this).html());
-                        var new_num = num * 0.75
-                        $(this).html(new_num);
-
-
-                    })
-                };
-
-
-
-                getnumber();
-
-                x = false;
-            }
-
-        },
-        offset: '60%',
-
-
-    })
-});
+//$(document).ready(function () {
+//    var x = true;
+//    var waypoint = new Waypoint({
+//        element: document.getElementById('counter'),
+//        handler: function (direction) {
+//            if (x === true) {
+//
+//                function getnumber() {
+//                    $('.stat-count').each(function () {
+//                        var num = parseInt($(this).html());
+//                        var new_num = num * 0.75
+//                        $(this).html(new_num);
+//
+//
+//                    })
+//                };
+//
+//
+//
+//                getnumber();
+//
+//                x = false;
+//            }
+//
+//        },
+//        offset: '60%',
+//
+//
+//    })
+//});
 
 $(document).ready(function () {
     $('#text-contact-email').hover(function () {
