@@ -262,7 +262,7 @@ $(document).ready(function () {
             scrollwheel: false,
             styles: stylesArray,
             draggable: false,
-            disableDefaultUI:true
+            disableDefaultUI: true
                 //            panControl: false
 
         };
@@ -323,6 +323,4 @@ $(document).ready(function () {
 
     })
 });
-
-
 

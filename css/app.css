@@ -100,27 +100,29 @@
     background-color: rgba(236, 240, 241, 0.4);
     text-decoration: none;
     cursor: pointer;
-
 }
 
 .hvr-fade {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-property: color, background-color;
-  transition-property: color, background-color;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
 }
-.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #2098d1;
-  color: white;
+
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active {
+    background-color: #2098d1;
+    color: white;
 }
 
 .navbar-custom a {
@@ -421,10 +423,13 @@ a h5 {
 .section6 h5 a,
 .section6 h5 a:hover {
     text-decoration: none;
-    color: orange;   /*Change Contact font colours*/
+    color: orange;
+    /*Change Contact font colours*/
 }
-.section6 h5 a:hover{
-    color: red;  /*Change Contact font colours*/
+
+.section6 h5 a:hover {
+    color: red;
+    /*Change Contact font colours*/
 }
 
 .submit-button-font {
@@ -448,7 +453,8 @@ a h5 {
 }
 
 .social-white {
-    color: #fff;
+    color: #000;
+    background-color: grey;
 }
 
 .contact-buttons {
@@ -525,24 +531,36 @@ a h5 {
         margin-left: -28px;
     }
 }
-.item-settings img{
+
+.item-settings img {
     display: none;
 }
 
-#facebook-sc-bkg{
-    color: red;
-}
-#facebook-sc:hover{
+#facebook-sc:hover {
     color: yellow;
+    background-color: #fff;
 }
 
-#twitter-sc-bkg{
- color: purple;
+#twitter-sc:hover {
+    color: purple;
+    background-color: #fff;
 }
 
-#gplus-sc-bkg{
+#gplus-sc:hover {
     color: green;
+    background-color: #fff;
 }
-#insta-sc-bkg{
+
+#insta-sc:hover {
     color: orange;
+    background-color: #fff;
+
+}
+
+.hover{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
