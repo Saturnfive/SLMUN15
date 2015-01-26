@@ -423,12 +423,13 @@ a h5 {
 .section6 h5 a,
 .section6 h5 a:hover {
     text-decoration: none;
-    color: orange;
+    color: #52B3D9;
+
     /*Change Contact font colours*/
 }
 
 .section6 h5 a:hover {
-    color: red;
+    color: #22A7F0;
     /*Change Contact font colours*/
 }
 
@@ -453,8 +454,8 @@ a h5 {
 }
 
 .social-white {
-    color: #000;
-    background-color: grey;
+    color: #232324;
+    background-color: #848484;
 }
 
 .contact-buttons {
@@ -537,23 +538,23 @@ a h5 {
 }
 
 #facebook-sc:hover {
-    color: yellow;
-    background-color: #fff;
+    color: #fff;
+    background-color: #3b5998;
 }
 
 #twitter-sc:hover {
-    color: purple;
-    background-color: #fff;
+    color: #fff;
+    background-color: #00aced;
 }
 
 #gplus-sc:hover {
-    color: green;
-    background-color: #fff;
+    color: #fff;
+    background-color: #dd4b39;
 }
 
 #insta-sc:hover {
-    color: orange;
-    background-color: #fff;
+    color: #fff;
+    background-color: #765742;
 
 }
 
@@ -563,4 +564,23 @@ a h5 {
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+}
+
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.shrink{
+    -webkit-animation-name: hvr-icon-pulse-shrink;
+  animation-name: hvr-icon-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }

@@ -324,3 +324,21 @@ $(document).ready(function () {
     })
 });
 
+$(document).ready(function(){
+    $('#text-contact-email').hover(function(){
+
+       $('#icon-contact-email').toggleClass('shrink');
+//       $('#tele').removeClass('buzz');
+    });
+    $('#text-contact-map').hover(function(){
+
+       $('#icon-contact-map').toggleClass('shrink');
+//       $('#tele').removeClass('buzz');
+    });
+    $('#text-contact-phone').hover(function(){
+
+       $('#icon-contact-phone').toggleClass('shrink');
+//       $('#tele').removeClass('buzz');
+    });
+});
+
