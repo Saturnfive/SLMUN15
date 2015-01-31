@@ -21,7 +21,7 @@
 }
 
 .intro-image {
-    background: url(../Resources/bmichcropped.jpg) no-repeat bottom center scroll;
+    background: url(../Resources/bmichcropped.jpg) fixed;
     background-color: #fff;
     background-size: cover;
 }
