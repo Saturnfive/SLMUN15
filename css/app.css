@@ -17,15 +17,16 @@
 }
 
 .intro-image .grid {
-    padding: 14% 0;
+    padding: 16% 0;
 }
 
 .intro-image {
-    background: url('../Resources/bmichcropped.jpg') no-repeat center center;
+    background: url('../Resources/1639833.jpg') no-repeat center center;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+     background-attachment: fixed;
 }
 
 .intro-body {
@@ -254,6 +255,9 @@
 
 .section1 {
     background-color: #0074ce;
+
+    position: relative;
+
 }
 
 .section2 {
