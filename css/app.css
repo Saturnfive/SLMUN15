@@ -21,8 +21,10 @@
 }
 
 .intro-image {
-    background: url(../Resources/bmichcropped.jpg) fixed;
-    background-color: #fff;
+    background: url('../Resources/bmichcropped.jpg') no-repeat center center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -533,7 +535,6 @@ a h5 {
     .social-media-pushdown-2 {
         margin-top: 5px;
     }
-
 }
 
 .item-settings img {
@@ -597,5 +598,4 @@ a h5 {
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: #C5C5C5;
-
 }
