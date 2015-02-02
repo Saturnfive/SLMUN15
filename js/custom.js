@@ -143,7 +143,7 @@ $(document).ready(function () {
 
     $('#team-slider').owlCarousel({
 
-
+        autoplay:true,
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
         loop: true,

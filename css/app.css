@@ -164,6 +164,7 @@
     color: #fff;
 }
 
+h1,
 .section1 h1,
 .section1 p,
 .section2 h1,
@@ -255,14 +256,9 @@
 }
 
 .section2 {
-
     background-image: url(../Resources/greybackdrop.png);
     background-size: cover;
-
-
-
-
-/*    background-color: #eeeeee;*/
+    /*    background-color: #eeeeee;*/
 }
 
 .section4 {
@@ -533,7 +529,6 @@ a h5 {
     .social-media-pushdown-2 {
         margin-top: 5px;
     }
-
 }
 
 .item-settings img {
@@ -597,5 +592,16 @@ a h5 {
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: #C5C5C5;
+}
+.bcolor {
+    background-color: #6fa7da;
+}
 
+.btn-registration {
+    border-radius: 1px;
+}
+
+.reg-push-down {
+    margin-top:2%;
+    margin-bottom:6%;
 }
