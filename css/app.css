@@ -288,6 +288,8 @@
 .section3 {
     background-image: url(../Resources/confroom.png);
     background-size: cover;
+
+    background-repeat: no-repeat;
 }
 
 hr.white-line {
