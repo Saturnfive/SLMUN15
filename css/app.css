@@ -601,7 +601,7 @@ a h5 {
 .btn-registration {
     border-radius: 1px;
     background-color: #eeeeee;
-    border-color: #eeeeee;
+    border-color: #999999;
     color: #555555;
 }
 
@@ -609,13 +609,14 @@ a h5 {
 .btn-registration:focus,
 .btn-registration:target{
     background-color: #f3f3f3;
-    border-color: #f3f3f3;
+    border-color: #888888;
     color: #3598dc;
+    
 }
 
 .btn-registration:focus {
     border-color: #999999;
-    outline-color: #999999;
+    outline-color: #666666;
 }
 
 .reg-push-down {
