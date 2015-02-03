@@ -173,7 +173,7 @@ $(document).ready(function () {
     var marker, map;
 
     var mapCanvas = document.getElementById('map-canvas');
-    var mapmarkericon = 'https://mapbuildr.com/assets/img/markers/solid-pin-red.png';
+    var mapmarkericon = 'http://slmun.org/Resources/solid-pin-red.png';
     function initialize() {
 
 
