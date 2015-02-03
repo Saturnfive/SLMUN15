@@ -601,16 +601,21 @@ a h5 {
 .btn-registration {
     border-radius: 1px;
     background-color: #eeeeee;
-    border-color: #999999;
+    border-color: #eeeeee;
     color: #555555;
 }
 
 .btn-registration:hover,
-.btn-registration:target
-{
+.btn-registration:focus,
+.btn-registration:target{
     background-color: #f3f3f3;
-    border-color: #999999;
+    border-color: #f3f3f3;
     color: #3598dc;
+}
+
+.btn-registration:focus {
+    border-color: #999999;
+    outline-color: #999999;
 }
 
 .reg-push-down {
