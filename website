@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>SLMUN</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,300|Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <link href="css/app.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="clearfix">
+
+        <nav class="navbar navbar-custom navbar-fixed-top " id="navibar" role="navigation">
+
+            <div class="container-fluid">
+
+                <div class="ontop ">
+                    <img id="logo" src="Resources/slmunlogo_blue.png" style="display: inline;">
+                </div>
+
+
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars white-icon"></i>
+                    </button>
+
+
+                    <div id="scrollup" class="navbar-Mtext mock-link hvr-fade">SLMUN 15</div>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
+                    <ul class="nav navbar-nav navbar-right pull-down-navbar" id="content-navbar">
+                        <li><a href="#about-us">About Us</a>
+                        </li>
+                        <li><a href="#8th-session">8th Session</a>
+                        </li>
+                        <!--
+                        <li><a href="#apply">Registration</a>
+                        </li>
+-->
+                        <li><a href="#team">The Team</a>
+                        </li>
+                        <li><a href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+    <div class="intro" id="top">
+        <div class="intro-image" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#top">
+            <div class="grid">
+                <div class="intro-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 " data-center="opacity: 1" data-10-top="opacity: 0" data-anchor-target="#top h1">
+                                <h1 class="intro-Mtext">Sri Lanka Model United Nations</h1>
+                                <p class="intro-Stext">One Country. One Conference. One Future.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid1 ">
+
+                <div class="large-icon text-center pull-down ">
+                    <a href="#about-us" data-center="opacity: 1" data-20-top="opacity: 0" data-anchor-target="#top p">
+                        <i class=" fa fa-angle-down white-icon center-block"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="section1" id="about-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="text-center " data-bottom-top="opacity: 0" data-center="opacity: 1" data-top-bottom="opacity: 0" data-anchor-target="#about-us p">About Us</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 " data-bottom-top="opacity: 0" data-center="opacity: 1" data-top-bottom="opacity: 0" data-anchor-target="#about-us p">
+                            <hr class="white-line" />
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-12 col-xs-10 col-xs-offset-1 col-md-offset-0" data-bottom-top="opacity: 0" data-center="opacity: 1" data-top-bottom="opacity: 0" data-anchor-target="#about-us p">
+                            <p><i>Sri Lanka Model United Nations (SLMUN) </i> is the national MUN conference and Asia's largest student run conference. The Inaugural SLMUN held at the BMICH, in 2008, involving over 1000 students from around Sri Lanka and abroad, put MUN in a new paradigm in Sri Lanka. SLMUN is currently in preparation for its 8th session following the glamorous path of seven consecutive success stories. Our aim is to take MUN to all corners of Sri Lanka with nothing standing in the way of each and every school student getting the opportunity to experience the uniqueness of it, while making Sri Lanka an international centre for MUNers. Hundreds of students have already been put into the fold of diplomacy and negotiations, allowing them to become true leaders, through SLMUN.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section2" id="8th-session">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="text-center" data-bottom-top="opacity: 0" data-center="opacity: 1" data-top-bottom="opacity: 0" data-anchor-target=".section2 p">The 8th Session</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 " data-bottom-top="opacity: 0" data-center="opacity: 1" data-top-bottom="opacity: 0" data-anchor-target=".section2 p">
+                            <hr class="blue-line" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12 col-xs-10 col-xs-offset-1 col-md-offset-0 " data-bottom-top="opacity: 0" data-center="opacity: 1" data-top-bottom="opacity: 0" data-anchor-target=".section2 p">
+
+
+                            <p>At the 8th Session we want to revolutionize the thought process and attitudes of students to distance themselves from the conventional Asian risk averse behavior and take real action towards making real change in the future world that will belong to them, while internalizing international issues that no longer isolate anyone. We intend on directing the risk taking actions of change towards creating the policies of the future – policies that they as the future global citizens would enshrine within the public policy domain. It is not mere reform that SLMUN 2015 wants to advocate but complete paradigm shifts in public policy with particular attention on education and nothing is more revolutionary than the education system envisioned by the very victims of the woes of the existing one. Education is the primary answer to all the world's problems from extremist terrorism to overpopulation.</p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="section3 " id="counter" data-bottom="background-position: 50% 0px;" data-top-bottom="background-position: 50% -75px;" data-anchor-target=".section3">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="text-center ">Our 8 Year Cumulation</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 ">
+                            <hr class="white-line" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="stat">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <i class="fa fa-users fa-3x"></i>
+                                <span class="stat-count highlight">25</span>
+                                <div class="milestone-details">
+                                    <p>Commitees</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <i class="fa fa-globe fa-3x"></i>
+                                <span class="stat-count highlight">7</span>
+                                <div class="milestone-details">
+                                    <p>Countries</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <i class="fa fa-graduation-cap  fa-3x"></i>
+                                <span class="stat-count highlight">154</span>
+                                <div class="milestone-details">
+                                    <p class="text-center">Schools</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <i class="fa fa-user fa-3x"></i>
+                                <span class="stat-count highlight">6537</span>
+                                <div class="milestone-details">
+                                    <p class="text-center">Delegates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="section4" id="apply">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="text-center">Registration</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 ">
+                            <hr class="blue-line" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12 col-xs-10 col-xs-offset-1 col-md-offset-0 ">
+
+                            <p class="text-center">Details out soon</p>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section5" id="team">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="text-center">The Team</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 ">
+                            <hr class="white-line" />
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-md-12 ">
+
+                            <div id="team-slider" class="owl-carousel owl-theme owl-loaded clearfix ">
+
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive  " src="Resources/mock.png">
+                                    </a><a href="#"><h4>Rohan Ellawala</h4><h5>Charge D’Affairs</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Vimanga.png">
+                                    </a><a href="#"><h4>Don Vimanga</h4><h5>Secretary General</h5></a>
+
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Sachitha.png">
+                                    </a><a href="#"><h4>Sachitha Kalingamudali</h4><h5>Under Secretary General of Logistics, IT &#38; Technical Affairs</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Afra.png">
+                                    </a><a href="#"><h4>Afra Faizel</h4><h5>Under Secretary General of Public Relations, IPC &#38; Support Functions</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Thilina.png">
+                                    </a><a href="#"><h4>Thilina Panduwawala</h4><h5>Under Secretary General of Conference Protocol</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Devinda.png">
+                                    </a><a href="#"><h4>Devinda Senanayaka</h4><h5>Director of IT</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Kovindu.png">
+                                    </a><a href="#"><h4>Kovindu Perera</h4><h5>Director of Logistics</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Chamath.png">
+                                    </a><a href="#"><h4>Chamath Kalupahana</h4><h5>Director of Finance</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Lasini.png">
+                                    </a><a href="#"><h4>Lasini Piyadigama</h4><h5>Co Director of Corporate Relations</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Tashya.png">
+                                    </a><a href="#"><h4>Tashya Forbes</h4><h5>Co Director of Corporate Relations</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Aqla.png">
+                                    </a><a href="#"><h4>Aqla Mizver</h4><h5>Editor of IPC</h5></a>
+                                </div>
+                                <div class="item-settings">
+                                    <a href="#">
+                                        <img class="img-responsive " src="Resources/Acushla.png">
+                                    </a><a href="#"><h4>Acushla Wijesinghe</h4><h5>Sub Editor of IPC</h5></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="section6 ">
+
+                <div id="map-canvas"></div>
+                <!--Google Map Here-->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="text-center">Contact Us</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 ">
+                            <hr class="white-line" />
+                        </div>
+                    </div>
+
+
+                    <div class="row contact-us-push-down" id="contact-us">
+
+                        <div class="col-md-2 col-xs-12" style="z-index: 1;">
+                            <div class="row social-media-pushdown-1">
+                                <div class="col-xs-6 text-right">
+                                    <span class="fa-stack fa-lg social-button-push-right">
+                                        <a href="https://www.facebook.com/slmun" target="_blank" >
+                                       <i class="fa fa-facebook fa-stack-1x fade-button social-white hover hvr-pop " id="facebook-sc" ></i></a>
+                                    </span>
+                                </div>
+                                <div class="col-xs-6">
+                                    <span class="fa-stack fa-lg social-button-push-left">
+                                        <a href="https://twitter.com/sl_mun" target="_blank" >
+                                   <i class="fa fa-twitter fa-stack-1x fade-button social-white hover hvr-pop "  id="twitter-sc"> </i></a></span>
+
+                                </div>
+                            </div>
+                            <div class="row social-media-pushdown-2">
+                                <div class="col-xs-6 text-right">
+                                    <span class="fa-stack fa-lg social-button-push-right">
+                                       <a href="https://plus.google.com/115715193101187358044/" target="_blank" >
+                                    <i class="fa fa-google-plus fa-stack-1x fade-button social-white hover hvr-pop " id="gplus-sc"></i> </a></span>
+
+                                </div>
+                                <div class="col-xs-6 ">
+                                    <span class="fa-stack fa-lg social-button-push-left">
+                                        <a href="http://instagram.com/sl_mun" target="_blank" >
+                                    <i class="fa fa-instagram fa-stack-1x fade-button social-white hover hvr-pop " id="insta-sc"></i></a></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <form class="form-horizontal " action="mail.php" method="POST">
+                            <div class="col-md-4">
+                                <div class="form-group ">
+                                    <div class="col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1 ">
+                                        <input type="text" class="form-control contact-details-block" id="name" name="contact-name" placeholder="Name">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class=" col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1  ">
+                                        <input type="text" class="form-control contact-details-block" id="contact-organi" name="contact-organi" placeholder="Organization/Institute">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class=" col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1  ">
+
+                                        <input type="text" class="form-control contact-details-block" id="contact-email" name="contact-email" placeholder="Email">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+                                <textarea class="form-control contact-message-block" rows="5" name="contact-message" placeholder="Message"></textarea>
+                            </div>
+
+
+
+
+                            <div class="col-md-1 col-xs-10 col-xs-offset-1 col-md-offset-0  ">
+                                <button type="submit"  value="Submit" class="btn btn-success btn-block contact-submit-block-add-margin btn-blue hover hvr-grow">
+
+                                <div class="submit-button-font">
+                                    <i id="submit" class="fa fa-angle-right "></i>
+                                </div>
+                                </button>
+
+                            </div>
+                        </form>
+
+
+
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+
+                </div>
+
+
+                <div class="container">
+                    <div class="row contact-buttons">
+
+                        <div class="col-xs-2 col-md-1  text-right"><i class="fa fa-envelope" id="icon-contact-email"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-3 ">
+                            <h5><a href="mailto:contact@slmun.org" target="_blank" class="hover " id="text-contact-email">contact@slmun.org</a></h5>
+                        </div>
+                        <div class="col-xs-2 col-md-1 text-right"><i class="fa fa-phone-square " id="icon-contact-phone"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-3">
+                            <h5><a href="" target="_blank"  class="hover " id="text-contact-phone">+94773465375</a></h5>
+                            <h5><a href="" target="_blank"  class="hover " id="text-contact-phone2">+94718013722</a></h5>
+                        </div>
+                        <div class="col-xs-2 col-md-1 text-right "><i class="fa  fa-map-marker" id="icon-contact-map"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-3">
+                            <h5><a href="https://goo.gl/maps/uWQk6" target="_blank" class="hover " id="text-contact-map">147 Pagoda Road, Pita Kotte 10100, Sri Lanka</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/skrollr.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+
+
+</body>
+
+</html>
+
