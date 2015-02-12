@@ -599,18 +599,18 @@ a h5 {
 }
 
 .btn-registration {
-    border-radius: 1px;
-    background-color: #eeeeee;
-    border-color: #999999;
-    color: #555555;
+    border-radius: 0px;
+    background-color: #3598dc;
+    color: #222222;
+    border-color: transparent;
 }
 
 .btn-registration:hover,
 .btn-registration:focus,
 .btn-registration:target{
-    background-color: #f3f3f3;
-    border-color: #888888;
-    color: #3598dc;
+    background-color: #46a9ed;
+    border-color: transparent;
+    color: #222222;
     
 }
 
