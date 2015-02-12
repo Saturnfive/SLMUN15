@@ -179,7 +179,8 @@ h1,
 .section5 h5,
 .section6 h1,
 .section6 p,
-.section6 h5 {
+.section6 h5,
+.btn-registration{
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -601,7 +602,7 @@ a h5 {
 .btn-registration {
     border-radius: 0px;
     background-color: #3598dc;
-    color: #222222;
+    color: #fff;
     border-color: transparent;
 }
 
@@ -610,8 +611,8 @@ a h5 {
 .btn-registration:target{
     background-color: #46a9ed;
     border-color: transparent;
-    color: #222222;
-    
+    color: #fff;
+
 }
 
 .btn-registration:focus {
