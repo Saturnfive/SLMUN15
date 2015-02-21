@@ -352,4 +352,6 @@ $(document).ready(function () {
         $('#icon-contact-phone').toggleClass('shrink');
         //       $('#tele').removeClass('buzz');
     });
+
+
 });

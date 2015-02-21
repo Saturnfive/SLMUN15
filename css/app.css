@@ -46,6 +46,19 @@
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
+
+}
+
+.count-text{
+    text-shadow: 2px 2px 5px #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.count-text-2{
+    font-weight: 700;
+    font-size: 16px;
+
 }
 
 .navbar-custom {
@@ -180,6 +193,7 @@ h1,
 .section6 h1,
 .section6 p,
 .section6 h5,
+.count-text,
 .btn-registration{
     font-family: 'Open Sans', sans-serif;
 }
