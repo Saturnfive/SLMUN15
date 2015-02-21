@@ -353,7 +353,7 @@ $(document).ready(function () {
         //       $('#tele').removeClass('buzz');
     });
 
-    $('#clock').countdown('2015/08/17', function (event) {
+    $('#clock').countdown('2015/08/14', function (event) {
         var $this = $(this).html(event.strftime('<span>%D</span> day%!D'));
     });
 });
