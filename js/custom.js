@@ -354,6 +354,6 @@ $(document).ready(function () {
     });
 
     $('#clock').countdown('2015/08/14', function (event) {
-        var $this = $(this).html(event.strftime('<span>%D</span> day%!D'));
+        var $this = $(this).html(event.strftime('<span class="count-blue"><span >%D</span> day%!D</span>'));
     });
 });
