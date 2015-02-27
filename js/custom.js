@@ -143,7 +143,7 @@ $(document).ready(function () {
 
     $('#team-slider').owlCarousel({
 
-
+        autoplay: true,
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
         loop: true,
@@ -351,5 +351,9 @@ $(document).ready(function () {
 
         $('#icon-contact-phone').toggleClass('shrink');
         //       $('#tele').removeClass('buzz');
+    });
+
+    $('#clock').countdown('2015/08/14', function (event) {
+        var $this = $(this).html(event.strftime('<span class="count-blue"><span >%D</span> day%!D</span>'));
     });
 });

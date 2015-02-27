@@ -46,6 +46,24 @@
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
+
+}
+
+.count-text{
+    text-shadow: 1px 1px 2px #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.count-text-2{
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.count-blue{
+    color: #3498DB;
+    font-size: 19px;
+
 }
 
 .navbar-custom {
@@ -164,6 +182,7 @@
     color: #fff;
 }
 
+h1,
 .section1 h1,
 .section1 p,
 .section2 h1,
@@ -178,7 +197,9 @@
 .section5 h5,
 .section6 h1,
 .section6 p,
-.section6 h5 {
+.section6 h5,
+.count-text,
+.btn-registration{
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -255,18 +276,13 @@
 }
 
 .section2 {
-
     background-image: url(../Resources/greybackdrop.png);
     background-size: cover;
-
-
-
-
-/*    background-color: #eeeeee;*/
+    /*    background-color: #eeeeee;*/
 }
 
 .section4 {
-    background-image: url(../Resources/greybackdrop.png);
+    background-image: url(../Resources/Reg_background.png);
     background-size: cover;
 }
 
@@ -533,7 +549,6 @@ a h5 {
     .social-media-pushdown-2 {
         margin-top: 5px;
     }
-
 }
 
 .item-settings img {
@@ -597,5 +612,34 @@ a h5 {
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: #C5C5C5;
+}
 
+.bcolor {
+    background-color: #6fa7da;
+}
+
+.btn-registration {
+    border-radius: 0px;
+    background-color: #3598dc;
+    color: #fff;
+    border-color: transparent;
+}
+
+.btn-registration:hover,
+.btn-registration:focus,
+.btn-registration:target{
+    background-color: #46a9ed;
+    border-color: transparent;
+    color: #fff;
+
+}
+
+.btn-registration:focus {
+    border-color: #999999;
+    outline-color: #666666;
+}
+
+.reg-push-down {
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
