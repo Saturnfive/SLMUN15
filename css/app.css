@@ -199,7 +199,8 @@ h1,
 .section6 p,
 .section6 h5,
 .count-text,
-.btn-registration{
+.btn-registration,
+.btn-invite{
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -253,6 +254,8 @@ h1,
 
 .section2 p {
     color: #3498db;
+    padding-bottom: 30px;
+
 }
 
 .section3 p {
@@ -642,4 +645,13 @@ a h5 {
 .reg-push-down {
     margin-top: 8%;
     margin-bottom: 8%;
+}
+
+.btn-invite-pad {
+    padding-bottom: 20px;
+}
+
+.btn-invite{
+        border-radius: 1px;
+
 }
