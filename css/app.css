@@ -662,6 +662,7 @@ a h5 {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
+    background: #3498db;
 }
 
 .btn-invite:before {
@@ -691,14 +692,20 @@ a h5 {
 	transform: scaleX(1);
 }
 
+.btn-invite:hover,
+.btn-invite:focus,
+.btn-invite:target {
+    background-color: #39a0e5;
+}
+
 .btn-invite-text {
 	margin-right: 5%;
-	color: red;
+	color: black;
 }
 
 .btn-invite-text:hover,
 .btn-invite-text:focus,
 .btn-invite-text:target {
-	color: #2098d1;
+	color: white;
 	text-decoration: none;
 }
