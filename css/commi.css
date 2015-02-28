@@ -36,7 +36,7 @@ h4 {
 }
 
 .margin {
-	padding: 5% 0 5% 0;
+	padding: 2% 0 2% 0;
 }
 
 .margin-inRow{
@@ -44,7 +44,8 @@ h4 {
 }
 .border{
 	border-color: #22A7F0;
-	border-style: solid;
+	border-style: none;
+	margin: 3% 0 3% 0;
 }
 .ga1 {
 	background-image: url(../Resources/confroom.png);
