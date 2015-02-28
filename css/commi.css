@@ -44,6 +44,8 @@ h4 {
 	background-image: url(../Resources/confroom.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .zoom {
@@ -68,5 +70,9 @@ h4 {
 
 .eads-Mtext {
 	font-size: 1.85em;
+}
+span{
+	display: none;
+	color: #fff
 }
 
