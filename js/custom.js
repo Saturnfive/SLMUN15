@@ -367,7 +367,7 @@ $(document).ready(function () {
 //			});
 			$("#btn-invite").addClass("");
 			$("#btn-invite-text").fadeOut(500, function () {
-				$(this).html("<a class='btn-invite-text'>English </a> <a class='btn-invite-text'>Sinhala </a> <a class='btn-invite-text'>Tamil </a>");
+				$(this).html("<a class='btn-invite-text' href='Resources/SLMUN_15_Invitation_to_schools_ ENGLISH.pdf'>English </a> <a class='btn-invite-text' href='Resources/SLMUN15_Invitation_to _schools _SINHALA.pdf'>Sinhala </a> <a class='btn-invite-text' href='Resources/SLMUN_15_Invitation_to_schools_TAMIL.pdf'>Tamil </a>");
 				$(this).fadeIn(500);
 			});
 			btnInviteClick = true;

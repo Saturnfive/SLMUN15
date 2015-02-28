@@ -9,7 +9,7 @@ h1 {
 h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size: 3em;
+	font-size: 2.5em;
 	text-align: center;
 	color: #fff;
 }
@@ -17,37 +17,56 @@ h3 {
 h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: .85em;
 	text-align: center;
 	color: #fff;
 }
-.title{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 1em;
-	margin: 4% 0 1% 4%;
-}
-.desc {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 1em;
-	margin: 0 4% 2% 4%;
-	text-align: justify;
+
+.padding {
+	padding: 7% 0 7% 0;
 }
 
-.margin {
-	padding: 2% 0 2% 0;
+.padding-only-title {
+	padding: 10.35% 0 10.35% 0;
 }
 
-.margin-inRow{
+.margin-inRow {
 	margin: 3% 0 3% 0;
 }
-.border{
+
+.border {
 	border-color: #22A7F0;
 	border-style: none;
 	margin: 3% 0 3% 0;
 }
+
 .ga1 {
 	background-image: url(../Resources/confroom.png);
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
+
+.zoom {
+	background-size: 120%;
+	-webkit-transition: background-size 500ms ease;
+	-moz-transition: background-size 500ms ease;
+	-o-transition: background-size 500ms ease;
+	transition: background-size 500ms ease;
+}
+.unzoom {
+	background-size: 100%;
+	-webkit-transition: background-size 500ms ease;
+	-moz-transition: background-size 500ms ease;
+	-o-transition: background-size 500ms ease;
+	transition: background-size 500ms ease;
+}
+/*Font-sizes*/
+
+.ssot-Mtext {
+	font-size: 2em;
+}
+
+.eads-Mtext {
+	font-size: 1.85em;
+}
+
