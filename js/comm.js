@@ -15,4 +15,14 @@ $(document).ready(function () {
 //		});
 
 	});
+
+	$("td").hover(
+		function () {
+			$(this).addClass("success");
+		},
+		function () {
+			$(this).removeClass("success");
+		}
+	);
+
 });
