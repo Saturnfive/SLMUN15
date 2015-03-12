@@ -1,5 +1,5 @@
 body {
-	padding-top: 70px;
+	padding-top: 100px;
 }
 
 h1 {
@@ -16,6 +16,51 @@ h1 {
 	text-align: center;
 	color: #fff;
 	padding-top: 7.5vmin;
+}
+
+.com-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 3.75em;
+	text-align: center;
+}
+
+.com-subtitle {
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.com-h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.9em;
+}
+.com-h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	margin-top: 1vh;
+	margin-left: 1%;
+}
+.com-topic{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.125em;
+	margin-top: 1vh;
+	margin-left: 2%;
+}
+.com-desc {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	font-size: 1.125em;
+}
+
+.com-p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.05em;
 }
 
 .title-only {
@@ -66,6 +111,11 @@ h1 {
 	/*	background-size: 100% 100%;*/
 }
 
+.background-image {
+	background-size: cover;
+	height: 45vh;
+}
+
 .inRow-margin {
 	margin-top: 5vh;
 }
@@ -77,7 +127,7 @@ span {
 .desc {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size:1em;
+	font-size: 1em;
 	text-align: justify;
 	padding: 8% 7% 5% 7%;
 	color: #fff;
