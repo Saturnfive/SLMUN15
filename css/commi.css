@@ -1,12 +1,6 @@
 body {
-	padding-top: 100px;
-}
-
-h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 3.5em;
-	text-align: center;
+	padding-top: 17vh;
+	background-color: #EAEAEA;
 }
 
 .title {
@@ -23,7 +17,7 @@ h1 {
 	font-weight: 600;
 	font-size: 3.75em;
 	text-align: center;
-	color: #4183D7;
+	color: #3498DB;
 }
 
 .com-subtitle {
@@ -33,13 +27,13 @@ h1 {
 
 .com-h4 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 1.9em;
 }
 
 .com-h5 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1.25em;
 	margin-top: 1vh;
 	margin-left: 1%;
@@ -58,6 +52,7 @@ h1 {
 	font-weight: 400;
 	text-align: justify;
 	font-size: 1.125em;
+	line-height: 3.5vh;
 }
 
 .com-p {
@@ -113,6 +108,10 @@ h1 {
 	background-image: url(../Resources/confroom.png);
 	background-repeat: no-repeat;
 	/*	background-size: 100% 100%;*/
+
+	border: 1px solid #AAA;
+	border-bottom: 3px solid #BBB;
+	overflow: hidden;
 }
 
 .background-image {
@@ -124,7 +123,6 @@ h1 {
 	margin-top: 5vh;
 }
 
-span {}
 
 .desc {
 	font-family: 'Open Sans', sans-serif;
@@ -138,4 +136,18 @@ span {}
 th,
 td {
 	text-align: center;
+}
+
+.page {
+	background-color: #FAFAFA;
+/*	border: 1px solid #BBB;*/
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	padding-right: 5vh;
+	padding-left: 5vh;
+}
+
+.spacer{
+	margin: 3vh;
 }
