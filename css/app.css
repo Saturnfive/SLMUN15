@@ -655,8 +655,8 @@ a h5 {
 
 .btn-invite:hover,
 .btn-invite:focus,
-.btn-invite:target{
-	color:#fff;
+.btn-invite:target {
+	color: #fff;
 }
 
 .btn-invite a,
@@ -666,9 +666,10 @@ a h5 {
 	text-decoration: none;
 	color: #333333;
 }
+
 .btn-invite a:hover,
 .btn-invite a:focus,
-.btn-invite a:target{
+.btn-invite a:target {
 	color: #fff
 }
 
@@ -680,4 +681,26 @@ a h5 {
 
 .btn-invite-text {
 	margin-right: 5%;
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+	background-color: rgba(52, 152, 219, .5);
+}
+
+.navbar-nav>li>.dropdown-menu {
+	margin-top: 5px;
+	background-color: rgba(4, 56, 105, 0.6);
+	border: none;
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+}
+
+.dropdown-menu>li>a {
+	font-weight: 600;
+}
+
+.dropdown-menu li a {
+	padding-left: 30px;
 }

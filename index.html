@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/jquery-ui.min.css" />
 	<link rel="stylesheet" href="css/hover.css" />
-	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,300|Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,600,700|Oxygen:400,300|Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
 	<link rel="icon" type="image/ico" href="favicon.ico">
 	<link href="css/app.css" rel="stylesheet">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,52 +28,72 @@
 </head>
 
 <body>
-
 	<div class="clearfix">
-
 		<nav class="navbar navbar-custom navbar-fixed-top " id="navibar" role="navigation">
-
 			<div class="container-fluid">
-
 				<div class="ontop ">
 					<img id="logo" src="Resources/slmunlogo_blue.png" style="display: inline;">
 				</div>
-
-
-
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
 						<i class="fa fa-bars white-icon"></i>
 					</button>
-
-
 					<div id="scrollup" class="navbar-Mtext mock-link hvr-fade">SLMUN 15</div>
 				</div>
-
 				<div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
 					<ul class="nav navbar-nav navbar-right pull-down-navbar" id="content-navbar">
-						<li><a href="#about-us">About Us</a>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#about-us">About us</a>
+								</li>
+								<li><a href="#8th-session">8th Session</a>
+								</li>
+								<li><a href="#apply">Registration</a>
+								</li>
+								<li><a href="#team">The Team</a>
+								</li>
+								<li><a href="#contact-us">Contact Us</a>
+								</li>
+							</ul>
 						</li>
-						<li><a href="#8th-session">8th Session</a>
-						</li>
+						<!--												<li><a href="blog">Blog</a>	</li>-->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Committees <span class="caret"></span></a>
+							<ul class="dropdown-menu navbar-sub-margin" role="menu">
+								<li><a href="committee/ga1/index.html">GA1</a>
+								</li>
+								<li><a href="committee/ga3/index.html">GA3</a>
+								</li>
+								<li><a href="committee/ga6/index.html">GA6</a>
+								</li>
+								<li><a href="committee/ecosoc/index.html">ECOSOC</a>
+								</li>
+								<li><a href="committee/slead/index.html">SLEAD</a>
+								</li>
+								<li><a href="committee/ssot/index.html">SSOT</a>
+								</li>
+								<li><a href="committee/unesco/index.html">UNESCO</a>
+								</li>
+								<li><a href="committee/unfccc/index.html">UNFCC</a>
+								</li>
+								<li><a href="committee/unhrc/index.html">UNHRC</a>
+								</li>
+								<li><a href="committee/sc/index.html">Security Council</a>
+								</li>
+								<li><a href="committee/wb/index.html">World Bank</a>
+								</li>
 
+							</ul>
+						</li>
 						<!--
-                        <li><a href="/blog">Blog</a>
-                        </li>
+						<li><a href="/blog">Media</a>
+						</li>
+						<li><a href="/blog">Downloads</a>
+						</li>
 -->
-
-						<li><a href="#apply">Registration</a>
-						</li>
-
-
-						<li><a href="#team">The Team</a>
-						</li>
-						<li><a href="#contact-us">Contact Us</a>
-						</li>
 					</ul>
 				</div>
-
-
 			</div>
 		</nav>
 	</div>
@@ -171,7 +191,7 @@
 						</div>
 						<div class="col-md-4 col-xs-10 col-xs-offset-1 col-md-offset-0 btn-invite-pad">
 							<div class="btn btn-default  btn-invite btn-lg btn-block ">
-								<a href="Resources/SLMUN_15_Invitation_to_schools_Foreignschools.pdf"><span id="btn-invite-text">Invitation Letter for Foreign Schools</span></a>
+								<a href="Resources/SLMUN_15_Invitation_to_schools_Foreignschools.pdf">Invitation Letter for Foreign Schools</a>
 							</div>
 						</div>
 					</div>

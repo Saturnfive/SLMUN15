@@ -367,9 +367,6 @@ $(document).ready(function () {
 			});
 			btnInviteClick = true;
 		}
-
 	});
-
-
 
 });
