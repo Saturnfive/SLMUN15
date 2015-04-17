@@ -27,73 +27,8 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-custom navbar-fixed-top navbar-color-active" id="navibar" role="navigation">
-			<div class="container-fluid">
-				<div class="ontop ">
-					<img id="logo" src="../Resources/slmunlogo_blue.png" style="display: inline;">
-				</div>
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-						<i class="fa fa-bars white-icon"></i>
-					</button>
-<!--					<div id="scrollup" class="navbar-Mtext mock-link hvr-fade">SLMUN 15</div>-->
-				</div>
-				<div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
-					<ul class="nav navbar-nav navbar-right pull-down-navbar" id="content-navbar">
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="../index.html#about-us">About us</a>
-								</li>
-								<li><a href="../index.html#8th-session">8th Session</a>
-								</li>
-								<li><a href="../index.html#apply">Registration</a>
-								</li>
-								<li><a href="../index.html#team">The Team</a>
-								</li>
-								<li><a href="../index.html#contact-us">Contact Us</a>
-								</li>
-							</ul>
-						</li>
-						<!--												<li><a href="blog">Blog</a>	</li>-->
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Committees <span class="caret"></span></a>
-							<ul class="dropdown-menu navbar-sub-margin" role="menu">
-								<li><a href="../committee/ga1/index.html">GA1</a>
-								</li>
-								<li><a href="../committee/ga3/index.html">GA3</a>
-								</li>
-								<li><a href="../committee/ga6/index.html">GA6</a>
-								</li>
-								<li><a href="../committee/ecosoc/index.html">ECOSOC</a>
-								</li>
-								<li><a href="../committee/slead/index.html">SLEAD</a>
-								</li>
-								<li><a href="../committee/ssot/index.html">SSOT</a>
-								</li>
-								<li><a href="../committee/unesco/index.html">UNESCO</a>
-								</li>
-								<li><a href="../committee/unfccc/index.html">UNFCC</a>
-								</li>
-								<li><a href="../committee/unhrc/index.html">UNHRC</a>
-								</li>
-								<li><a href="../committee/sc/index.html">Security Council</a>
-								</li>
-								<li><a href="../committee/wb/index.html">World Bank</a>
-								</li>
+	<?php include '../menu.html' ?>
 
-							</ul>
-						</li>
-						<!--
-						<li><a href="/blog">Media</a>
-						</li>
-						<li><a href="/blog">Downloads</a>
-						</li>
--->
-					</ul>
-				</div>
-			</div>
-		</nav>
 	<div class="container page">
 		<div class="row">
 			<div class="col-lg-12">

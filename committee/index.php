@@ -27,53 +27,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-custom navbar-fixed-top navbar-color-active" id="navibar" role="navigation">
-
-		<div class="container-fluid">
-
-			<div class="ontop ">
-				<img id="logo" src="../Resources/slmunlogo_blue.png" style="display: inline;">
-			</div>
-
-
-
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-					<i class="fa fa-bars white-icon"></i>
-				</button>
-
-
-				<!--				<div id="scrollup" class="navbar-Mtext mock-link hvr-fade">SLMUN 15</div>-->
-			</div>
-
-			<div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
-				<ul class="nav navbar-nav navbar-right pull-down-navbar" id="content-navbar">
-					<li><a href="#about-us">About Us</a>
-					</li>
-					<li><a href="#8th-session">8th Session</a>
-					</li>
-
-					<!--
-                        <li><a href="/blog">Blog</a>
-                        </li>
--->
-
-					<li><a href="#apply">Registration</a>
-					</li>
-					<li><a href="#apply">Committees</a>
-					</li>
-
-
-					<li><a href="#team">The Team</a>
-					</li>
-					<li><a href="#contact-us">Contact Us</a>
-					</li>
-				</ul>
-			</div>
-
-
-		</div>
-	</nav>
+	<?php include '../menu.html' ?>
 	<div class="container page">
 		<div class="row">
 			<div class="col-md-12 ">

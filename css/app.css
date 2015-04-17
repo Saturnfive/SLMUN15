@@ -203,6 +203,7 @@ h1,
 	font-family: 'Open Sans', sans-serif;
 }
 
+
 .section1 h1,
 .section2 h1,
 .section3 h1,
@@ -420,7 +421,7 @@ a h5 {
 	margin-bottom: -15%;
 	line-height: 20px;
 }
-
+/*Developed and Designed by Devinda Senanayaka; dsenanayaka1@gmail.com; @DevindaSe*/
 .item-settings a:hover,
 .item-settings a:focus,
 .item-settings a:hover h4,
