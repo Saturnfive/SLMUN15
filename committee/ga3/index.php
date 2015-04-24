@@ -32,7 +32,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="com-title">GA3</div>
-				<div class="com-title com-subtitle">Social, Humanitarian and Cultural Committee</div>
+				<div class="com-title com-subtitle">Social and Political Committee</div>
 			</div>
 		</div>
 		<div class="spacer"></div>
@@ -44,9 +44,9 @@
 		<div class="spacer"></div>
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
-				<div class="com-desc">The Social, Humanitarian and Cultural Committee (SOCHUM) is the Third Committee of the General Assembly. GA3 handles matters revolving around human rights concerns across the globe. The Committee raises many questions relating to topics such as the advancement of women, the protection of children, indigenous issues, treatment of refugees and the right to self-determination. It also focuses on the fundamental freedom and rights of the people by minimizing the effects of all forms of discrimination. Many important social development questions will be addressed including controversial issues concerning youth, family, ageing, people with disabilities, crime prevention, criminal justice and international drug control.</div>
+				<div class="com-desc">The Third Committee usually deals with social, humanitarian and human rights (SOCHUM) affairs, however the committee mandate has been amended this session to address pressing social and socio-political (SOCPOL) issues at the discretion of the Secretariat, with unanimous approval of member states. SOCPOL this year will be dealing with issues that are unique to the 21st century that have an significant impact on society such as climate change, technology, demographic change, health care, and democracy. In this unique session delegates are expected propose and revise modern solutions to tackle these growing problems.</div>
 				<div class="spacer"></div>
-				<div class="com-desc"><i>“All growth depends upon activity. There is no development physically or intellectually without effort, and effort means work.” ~ Calvin Coolidge</i>
+				<div class="com-desc"><i>"Democracy is not just constitutional and legislative rules; it is a culture and practice and adhering by the law and respecting international human rights principles." ~ Hamad bin Isa Al Khalifa</i>
 				</div>
 			</div>
 		</div>
