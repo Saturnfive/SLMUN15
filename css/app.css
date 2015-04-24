@@ -215,7 +215,7 @@ h1,
 	padding-top: 114px;
 	/*    font-size: 33.7px;*/
 
-	color: #fff;
+	color: #0e0e0e;
 	font-weight: 600;
 	font-size: 2.106em;
 }
@@ -248,7 +248,7 @@ h1,
 	padding-bottom: 80px;
 	/*    font-size: 20.6px;*/
 
-	color: #fff;
+	color: #0e0e0e;
 	text-align: justify;
 	font-weight: 400;
 	font-size: 1.288em;
@@ -277,7 +277,7 @@ h1,
 }
 
 .section0{
-	background-color: #171D1C;
+	background-color: #e8e8e8;
 }
 .section1 {
 	background-color: #2275af;
@@ -316,6 +316,11 @@ hr.white-line {
 hr.blue-line {
 	border-width: 2px;
 	border-color: #3498db;
+}
+
+hr.black-line {
+    border-width: 2px;
+    border-color: #000;
 }
 
 .ontop {
