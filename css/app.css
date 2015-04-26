@@ -211,7 +211,7 @@ h1,
 .section4 h1,
 .section5 h1,
 .section6 h1,
-.section0 h1{
+.section0 h1 {
 	padding-top: 114px;
 	/*    font-size: 33.7px;*/
 
@@ -244,15 +244,20 @@ h1,
 .section2 p,
 .section3 p,
 .section4 p,
-.section0 p{
+.section0 p {
 	padding-bottom: 80px;
 	/*    font-size: 20.6px;*/
 
-	color: #0e0e0e;
+	color: #fff;
 	text-align: justify;
 	font-weight: 400;
 	font-size: 1.288em;
 	line-height: 30px;
+}
+
+.section0 p {
+	color: #0e0e0e;
+	padding-bottom: 40px;
 }
 
 .section2 p {
@@ -276,9 +281,10 @@ h1,
 	font-size: 0.75em;
 }
 
-.section0{
+.section0 {
 	background-color: #e8e8e8;
 }
+
 .section1 {
 	background-color: #2275af;
 }
@@ -319,8 +325,8 @@ hr.blue-line {
 }
 
 hr.black-line {
-    border-width: 2px;
-    border-color: #000;
+	border-width: 2px;
+	border-color: #000;
 }
 
 .ontop {
@@ -689,4 +695,17 @@ a h5 {
 
 .dropdown-menu li a {
 	padding-left: 30px;
+}
+
+.page {
+	background-color: #FAFAFA;
+	/*	border: 1px solid #BBB;*/
+
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	padding-right: 5vh;
+	padding-left: 5vh;
+	margin-bottom: 40px;
+
 }
