@@ -120,26 +120,26 @@
 }
 
 .hvr-fade {
-	display: inline-block;
-	overflow: hidden;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	vertical-align: middle;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
-	-webkit-transition-property: color, background-color;
-	transition-property: color, background-color;
+	display: inherit;
+	vertical-align: inherit;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: color, background-color;
+	transition-property: color, background-color;
 }
 
 .hvr-fade:hover,
 .hvr-fade:focus,
 .hvr-fade:active {
-	background-color: #2098d1;
-	color: white;
+	background-color: inherit;
+	color: inherit;
 }
 
 .navbar-custom a {
@@ -215,9 +215,13 @@ h1,
 	padding-top: 114px;
 	/*    font-size: 33.7px;*/
 
-	color: #0e0e0e;
+	color: #fff;
 	font-weight: 600;
 	font-size: 2.106em;
+}
+
+.section0 h1 {
+	color: #0e0e0e;
 }
 
 .section6 h1 {
@@ -638,11 +642,20 @@ a h5 {
 }
 
 .btn-registration,
-.btn-invite {
+.btn-invite,
+.btn-download {
 	border-color: transparent;
 	border-radius: 0px;
 	background-color: #3598dc;
 	color: #fff;
+}
+
+.btn-download:target,
+.btn-download:hover,
+.btn-download:focus {
+	border-color: transparent;
+	background-color: white;
+	color: black;
 }
 
 .btn-registration:hover,
@@ -707,5 +720,4 @@ a h5 {
 	padding-right: 5vh;
 	padding-left: 5vh;
 	margin-bottom: 40px;
-
 }

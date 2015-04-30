@@ -1376,6 +1376,7 @@
 /* BACKGROUND TRANSITIONS */
 /* Fade */
 .hvr-fade {
+
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -1389,6 +1390,7 @@
   transition-duration: 0.3s;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
+
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: #2098d1;
