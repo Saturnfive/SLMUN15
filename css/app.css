@@ -646,7 +646,7 @@ a h5 {
 .btn-download {
 	border-color: transparent;
 	border-radius: 0px;
-	background-color: #3598dc;
+	background-color: #61a6d4;
 	color: #fff;
 }
 
@@ -654,8 +654,8 @@ a h5 {
 .btn-download:hover,
 .btn-download:focus {
 	border-color: transparent;
-	background-color: white;
-	color: black;
+	background-color: #3498DB;
+	color: white;
 }
 
 .btn-registration:hover,
